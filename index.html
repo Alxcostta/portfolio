@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Portfólio | A.C </title>
+  <meta name="description" content="Portfólio do desenvolvedor front-end Alex Costa para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="/src/assets/images/icons/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/src/assets/css/reset.css">
+  <link rel="stylesheet" href="/src/assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="/src/assets/images/icons/logo.png" alt="Logo AC">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-lamp"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Estudante &</b> Futuro Dev. Front-end</h1>
+      <p>Alex G. Costa, São Paulo-SP, Estudante de Análise e Desenvolvimento de Sistemas.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/Alxcostta" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/aleex-costa/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/alxcostta/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+  </main>
+
+  <section class="technologies">
+    <h2>Tecnologias que estou aprendendo</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="/src/assets/images//icons/javascript-logo-svgrepo-com.svg" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="/src/assets/images/icons/Python_logo_01.svg" alt="Logo Python">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="/src/assets/images/icons/html-5-logo-svgrepo-com.svg" alt="Logo HTML5">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="/src/assets/images/icons/w3_css-official.svg" alt="Logo CSS">
+      </li>
+    </ul>
+  </section>
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <br>  
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="/src/assets/images/projetos/versao-desktop.png" alt="versão desktop da página">
+        <div class="card__body">
+          <h3 class="card__title">Landing page Mundo Invertido - Stranger Things 5</h3>
+          <p class="card__description">Projeto com fins didáticos - Bootcamp</p>
+          <ul class="card__list">
+            <li class="card__item">Página com dois temas - Dark/Light;</li>
+            <li class="card__item">Player de vídeo e galeria de imagens;</li>
+            <li class="card__item">Formulário de Inscrição.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/html-5-logo-svgrepo-com.svg" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/javascript-logo-svgrepo-com.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/w3_css-official.svg" alt="Logo CSS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://landing-page-mundo-invertido-theta.vercel.app/" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+          </a>
+            <a href="https://github.com/Alxcostta/Landing-Page-Mundo-Invertido" target="_blank">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="/src/assets/images/projetos/Macbook-Air-.png" alt="versão desktop da página">
+        <div class="card__body">
+          <h3 class="card__title">Calculadora de IMC</h3>
+          <p class="card__description">Projeto com fins didáticos</p>
+          <ul class="card__list">
+            <li class="card__item">Realiza o calculo do seu IMC;</li>
+            <li class="card__item">Projeto totalmente Responsivo;</li>
+            <li class="card__item">Link para a secretaria municipal de saúde de SP.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/html-5-logo-svgrepo-com.svg" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/javascript-logo-svgrepo-com.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/w3_css-official.svg" alt="Logo CSS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://calculadora-imc-phi-navy.vercel.app/" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+          </a>
+          <a href="https://github.com/Alxcostta/Calculadora-IMC?tab=readme-ov-file" target="_blank">
+            <button class="btn">
+              <span>Repositório</span>
+            </button>  
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="/src/assets/images/projetos/versaoWeb.png" alt="versão desktop da página">
+        <div class="card__body">
+          <h3 class="card__title">Jogo da Memória</h3>
+          <p class="card__description">Projeto com fins didáticos - Bootcamp</p>
+          <ul class="card__list">
+            <li class="card__item">Projeto usa algoritmos matemáticos para embaralhar as cartas;</li>
+            <li class="card__item">Projeto Responsivo.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/html-5-logo-svgrepo-com.svg" alt="Logo HTML5">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/javascript-logo-svgrepo-com.svg" alt="Logo JavaScript">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="/src/assets/images/icons/w3_css-official.svg" alt="Logo CSS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://jogo-da-memoria-orpin.vercel.app/" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+          </a>
+            <button class="btn">
+              <a href="https://github.com/Alxcostta/jogo-da-memoria" target="_blank">
+              <span>Repositório</span>
+            </button>  
+          </a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Alxcostta?tab=repositories" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="/src/assets/images/avatar/WhatsApp Image 2024-09-07 at 3.18.00 PM.jpeg" alt="Avatar Alex C.">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Alex Costa. Apaixonado por artes, design e tecnologia, meu primeiro "Hello World" foi na adolescência quando tive contato com HTML, pórem meu interesse maior pela área veio depois de anos, quando resolvi mudar da área veterinária para a de tecnologia. 
+        <br>Atualmente estou no segundo semestre do tecnólogo em Análise e Desenvolvimento de Sistemas, e estou em busca de uma oportunidade de estágio na área de Tecnologia.
+        </p>  
+
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://github.com/Alxcostta" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="/src/assets/curriculo/CURRÍCULO ALEX COSTA .pdf" target="_blank">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e Desenvolvimento de Sistemas</h4>
+          <span>AGO. 2024 - 2˚ Semestre</span>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>FAM - Centro Universitário</span>
+          </div>
+          <span></span>
+          <div class="about__icons">
+            <i class="#"></i>
+            <span></span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>ASSISTENTE ADMINISTRATIVO PESSOAL  </h4>
+          <span>Freelancer</span>
+          <span>
+            
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Organização de agenda e reuniões;</li>
+            <li class="about__item">Elaboração de e-mails;</li>
+            <li class="about__item">Emissão de notas fiscais;</li>
+            <li class="about__item">Acompanhar em eventos externos.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Bootcamp | Front-end do Zero</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Jul - Dez 2024 | 75h
+              </p>
+              <p>
+                Construa 10 projetos Front-end com HTML, CSS e JAVASCRIPT!
+              <p>
+                Domine a trinca fundamental do bom desenvolvedor Front-End com HTML, CSS e JAVASCRIPT, com uma base estruturada de conteúdos e 10 projetos práticos, incluindo páginas web responsivas e dinâmicas com temática do Stranger Things, Spider Man, Yu-Gi-Oh e mais!
+              </p>
+              <p>
+                É um conteúdo completo e totalmente alinhado com o dia a dia de desenvolvedores Front-End, com mentorias dos próprios experts da Ri Happy.
+              </p>    
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Imersão Dev. Google Gemini </span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Alura. Set 2024 | 4h
+              </p>
+              <p>
+                Imersão de desenvolvimento Front-end promovido pela Alura em parceria com a Google Gemini.
+              </p>
+              <p>
+                Durante a imersão foi realizado um desafio onde era necessário desenvolver um site com HTML, CSS e JavaScript, com tema livre e que fosse utilizado os conceitos e tecnicas abordadas durante as lives.
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para novas conexões!
+    <br>Contate-me via e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/Alxcostta" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/aleex-costa/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/alxcostta/" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:aleexcosta98@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">aleexcosta98@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024. Todos os Direitos Reservados. Alex G. Costa. Desenvolvido por <a href="https://github.com/Alxcostta">AC</a>
+    </p>
+  </footer>
+  <script src="/src/assets/js/script.js"></script>
+</body>
+</html>
