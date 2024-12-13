@@ -3,7 +3,7 @@
 </div>
 
 <div align = "justify"">
-<p> Olá, meu nome é Alex e sou estudante do curso de Análise e Desenvolvimento de Sistemas e estou estudando para me tornar um desenvolvedor front-end, com foco em criar sites e aplicativos web responsivos e visualmente atraentes. Sou apaixonado por tecnologia e design e estou sempre em busca de novas maneiras de melhorar minhas habilidades e criar experiências incríveis para os usuários. </p>
+<p> Olá, meu nome é Alex, sou estudante do curso de Análise e Desenvolvimento de Sistemas e estou estudando para me tornar um desenvolvedor front-end, com foco em criar sites e aplicativos web responsivos e visualmente atraentes. Sou apaixonado por tecnologia e design e estou sempre em busca de novas maneiras de melhorar minhas habilidades e criar experiências incríveis para os usuários. </p>
 </div>
 
 <p> Habilidades que estou aprendendo: </p>
