@@ -14,7 +14,7 @@
 
 <div align = "center">
   
-<h2><a href="https://portfolio-two-theta-86.vercel.app/" target="_blank"> Acesse Agora </a></h2>
+<h2><a href="https://portfolio-alex-costa.vercel.app/" target="_blank"> Acesse Agora </a></h2>
 
 <p> <img src="https://github.com/Alxcostta/portfolio/blob/main/src/assets/images/projetos/iPhone-13-PRO-portfolio-two-theta-86.vercel.app.png" alt="Home Page do Portfólio na versão mobile"> </p>
 <p> Home Page do Portfólio na versão mobile <p>
